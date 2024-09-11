@@ -13,11 +13,14 @@ export function buildLoaders(options: BuildOptions): webpack.RuleSetRule[] {
           {
             loader: "css-loader",
             options: {
+                // esModule: true,
                 modules: {
                     auto: (resPath: string) => Boolean(resPath.includes('.module.')),
                     localIdentName: options.isDev 
                         ? '[path][name]__[local]--[hash:base64:5]' 
-                        : '[hash:base64:8]'
+                        : '[hash:base64:8]',
+                  
+                    namedExport: false, // добавил, чтобы использовать именованный импорт, в 7 версии namedExport по умолчанию true, поэтому импортировать можно только как import * as
                 }     
             }
           },
