@@ -3,6 +3,6 @@ declare module '*.scss' {
         [className: string]: string
     }
 
-    const classNames: IClassNames;
-    export = classNames;
+    const classnames: IClassNames;
+    export = classnames;
 }
