@@ -1,9 +1,12 @@
-// import styles from './AboutPage.module.css';
+import { useTranslation } from "react-i18next";
 
-const AboutPage = () => {
+
+const AboutPage = () => {   
+    const {t} = useTranslation();
+
     return (
         <>
-            About Page
+            {t('О сайте')}
         </>
     )
 };

@@ -1,9 +1,12 @@
-// import styles from './MainPage.module.css';
+import { useTranslation } from "react-i18next";
 
 const MainPage = () => {
+    const {t} = useTranslation();
+
+
     return (
         <>
-            Main Page
+            {t('Главная страница')}
         </>
     )
 };
