@@ -1,0 +1,9 @@
+.vscode/settings.json
+/node_modules
+node_modules
+/build
+/.vscode
+.vscode
+../.vscode
+../../.vscode
+prod-course/build/
