@@ -11,6 +11,7 @@ export default [
       globals: {
         ...globals.browser,
         __IS_DEV__: "readonly",
+        ...globals.jest,
       },
     },
   },
