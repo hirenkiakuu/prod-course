@@ -7,3 +7,5 @@ node_modules
 ../.vscode
 ../../.vscode
 prod-course/build/
+
+*storybook.log
