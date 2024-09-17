@@ -1,3 +1,15 @@
+# About Project
+
+## Project includes:
+
+- Bundler: webpack
+- Stylization: scss modules
+- Linters: eslint, stylelint
+- i18n
+- Storybook
+- JEST, RTL
+- Architecture: FSD
+
 # Webpack congifuration
 
 config in general consists of:
